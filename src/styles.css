@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.time-container {
+  margin-top: 10vh;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  margin-top: 10vh;
+}
+
+.btn-container button {
+  border-radius: 50%;
+  width: clamp(40px, 15vw, 50px);
+  height: clamp(40px, 15vw, 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lap-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10vw;
+  border-bottom: 1px solid lightgrey;
+}
+
+.lap-container p {
+  margin: 2vh 0;
+}
